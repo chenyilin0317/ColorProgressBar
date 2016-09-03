@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.example.simpleprogressbar"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp" >
+
+    <com.cyl.simpleprogressbar.ColorProgressBar
+        android:id="@+id/progress2"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        app:finishColor="#FF7F24"
+        app:testHeight="10sp"
+        app:textColor="#FF7F24"
+        app:unFinishColor="#B8B8B8" />
+
+    <com.cyl.simpleprogressbar.ColorProgressBar
+        android:id="@+id/progress3"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        app:finishColor="#EED8AE"
+        app:testHeight="10sp"
+        app:textColor="#EED8AE"
+        app:unFinishColor="#B8B8B8" />
+
+    <com.cyl.simpleprogressbar.ColorProgressBar
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/progress4"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:finishColor="#EED8AE"
+        app:testHeight="15sp"
+        app:isHorizontalStyle="false"
+        app:textColor="#EED8AE"
+        app:unFinishColor="#B8B8B8" />
+
+    <com.cyl.simpleprogressbar.ColorProgressBar
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/progress5"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:finishColor="#EED8AE"
+        app:isHorizontalStyle="false"
+        app:testHeight="15sp"
+        app:textColor="#EE7600"
+        app:unFinishColor="#EEB422" />
+
+</LinearLayout>

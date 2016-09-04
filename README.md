@@ -6,7 +6,7 @@
   ![image](https://github.com/chenyilin0317/ColorProgressBar/raw/master/image/cir.png)
   
   
-  xml:
+#  xml:
   <com.cyl.simpleprogressbar.ColorProgressBar
         android:id="@+id/progress3"
         android:layout_width="match_parent"

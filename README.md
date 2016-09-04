@@ -1,8 +1,8 @@
 # ColorProgressBar
 
-  Line:
+# Line:
  ![image](https://github.com/chenyilin0317/ColorProgressBar/raw/master/image/line.gif)
-  circular:
+# circular:
   ![image](https://github.com/chenyilin0317/ColorProgressBar/raw/master/image/cir.png)
   
   
